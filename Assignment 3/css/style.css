@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    font-family: arial, sans-serif;
+}
+
+.content-area {
+    margin: auto;
+    padding: 0 100px;
+}
+
+h1 {
+    position: absolute;
+    left: 40%;
+    font-family: Cambria, serif;
+    font-style: italic;
+}
+
+.cls-1,
+.cls-2 {
+    stroke-width: 0px;
+}
+
+.cls-2 {
+    fill: #0f0f0f;
+}
+
+.cls-3 {
+    fill: none;
+    stroke: #545454;
+    stroke-width: 16px;
+}
+
+.cls-3,
+.cls-4 {
+    stroke-miterlimit: 10;
+}
+
+.cls-4 {
+    fill: #fff;
+    stroke: #000;
+}
